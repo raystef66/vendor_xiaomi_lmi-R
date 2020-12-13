@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/etc/permissions/vendor.xiaomi.hardware.otrpagent-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.otrpagent-V2.0-java-permission.xml \
     vendor/xiaomi/lmi/proprietary/etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml \
     vendor/xiaomi/lmi/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/xiaomi/lmi/proprietary/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.thermal@1.0.so \
+    vendor/xiaomi/lmi/proprietary/lib/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.thermal@2.0.so \
     vendor/xiaomi/lmi/proprietary/lib/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/lmi/proprietary/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so \
     vendor/xiaomi/lmi/proprietary/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so \
@@ -38,6 +40,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi/proprietary/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/lmi/proprietary/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@3.0.so \
     vendor/xiaomi/lmi/proprietary/lib/vendor.xiaomi.hardware.vibratorfeature@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.vibratorfeature@1.0.so \
+    vendor/xiaomi/lmi/proprietary/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@1.0.so \
+    vendor/xiaomi/lmi/proprietary/lib64/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@2.0.so \
     vendor/xiaomi/lmi/proprietary/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/lmi/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so \
     vendor/xiaomi/lmi/proprietary/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so \
